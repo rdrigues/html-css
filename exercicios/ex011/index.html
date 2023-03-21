@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body><h1>Imagens dinamicas</h1>
+    <p>Diminua e aumente o tamanho do navegador para a imagem se redimensionar sozinha</p>
+    <picture>
+        <source media="(max-width:730px)" srcset="imagens/foto-o.png" type="image/png">
+        <source media="(max-width:1030px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
+    </picture>
+    <h1>Agora vamos reproduzir audios</h1>
+    <audio src="midia/Summer Forest.mp3" autoplay controls></audio>
+    <audio>
+        <source src="midia/Summer Forest.mp3" type="audio/mpeg">
+        <source src="midia/Summer Forest.ogg" type="audio/ogg">
+        <source src="midia/Summer Forest.wav" type="audio/wav">
+        
+    </audio>
+</body>
+</html>
