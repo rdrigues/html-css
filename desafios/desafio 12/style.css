@@ -49,20 +49,39 @@ section{
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 5vh;
+    text-indent: 5px;
+}
+section>p{
+    padding-bottom: 2em;
 }
 .normal{
-    background-color: brown;
+    background-color: white;
 }
-.imagem{
-    background-color: blueviolet;
+
+section.imagem{
+    background-color: brown;
     color: white;
     
 }
+#img01{
+    background: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02{
+    background: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.493);
-    width: 200px;
+    width: 60vh;
     display: inline-block;
     padding: 5px;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.548);
+
 }
 
 footer{
