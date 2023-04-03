@@ -14,17 +14,22 @@
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
             width: 500px;
             border-collapse: collapse;
-            background-image: linear-gradient(to right,  rgba(199, 198, 198, 0.733), transparent);
+            background-image: linear-gradient(to right,  rgba(177, 176, 228, 0.452), transparent);
+        
         }
-        th{
+        th, #total{
             background-color: gray;
             color: white;
         }
         td, tr{
             border: 1px solid black;
         }
+
         .num{
             text-align: right;
+        }
+        tbody > tr:nth-child(even) {
+            background-color:rgba(211, 211, 211, 0.404);
         }
     </style>
 </head>
@@ -96,7 +101,7 @@
          <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td class="num"><strong>127 168 024</strong></td>
+                <td id="total" class="num"><strong>127 168 024</strong></td>
             </tr>
          </tfoot>
      </table>
